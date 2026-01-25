@@ -1,0 +1,20 @@
+[project]
+name = "hello-laggraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "firecrawl-py>=4.13.4",
+    "grandalf>=0.8",
+    "langchain[openai]>=0.3.27",
+    "langgraph>=1.0.7",
+    "langgraph-checkpoint-sqlite>=3.0.3",
+    "langgraph-cli>=0.4.12",
+    "python-dotenv>=1.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+]
